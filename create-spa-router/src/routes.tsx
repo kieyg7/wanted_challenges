@@ -10,9 +10,7 @@ const Routes = ({ children }: React.ReactNode) => {
   const [pathName, setPathName] = useState(window.location.pathname);
 
   useEffect(() => {
-    window.onpopstate = () => {
-      setPathName(window.location.pathname);
-    };
+    window.onpopstate = () => setPathName(window.location.pathname);
     return () => {
       window.onpopstate = null;
     };
