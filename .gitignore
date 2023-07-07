@@ -1,2 +1,5 @@
  <include href="create-spa-router/.gitignore">
  </include>
+.idea/
+
+.DS_Store
