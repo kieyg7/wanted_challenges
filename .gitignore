@@ -1,5 +1,5 @@
- <include href="create-spa-router/.gitignore">
- </include>
+ <include href="create-spa-router/.gitignore"></include>
+ <include href="create-blog/.gitignore"></include>
 .idea/
 
 .DS_Store
